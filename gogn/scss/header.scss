@@ -8,5 +8,10 @@
 }
 
 .about-header {
-  background: url(bg-subpage.jpg) fixed;
+  background-repeat:   no-repeat;
+  background-position: center center;
+  background-size: contain;
+
+  background: url(bg-subpage.jpg);
+  min-height: 20em;
 }
