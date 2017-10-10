@@ -1,13 +1,8 @@
-<<<<<<< HEAD
 @charset "UTF-8";
 /* setjum box-sizing: border-box; á allt */
 html {
   /* stylelint-disable-line */
   box-sizing: border-box; }
-=======
-h1 {
-  color: red; }
->>>>>>> d4db89a230e2424f76730c25d727f9d74a5d889d
 
 *, *:before, *:after {
   /* stylelint-disable-line */
@@ -51,9 +46,36 @@ main {
   justify-content: center;
   align-items: center; }
 
-header {
-  margin-left: 0;
-  padding: 0; }
+.about-header {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  background: url(bg-subpage.jpg);
+  min-height: 20em; }
+
+.block {
+  margin-top: 2em;
+  margin-bot: 2em; }
+
+.about-blockquote {
+  float: right;
+  position: relative;
+  width: 50%;
+  padding: 5em; }
+
+.quote {
+  font-style: italic;
+  font-size: 1.5em;
+  padding-bottom: 2em; }
+
+p {
+  font-family: 'Open Sans'; }
+
+h1 {
+  font-family: 'Roboto Slab'; }
+
+h2 {
+  font-family: 'Roboto Slab'; }
 
 button {
   background-color: grey;
