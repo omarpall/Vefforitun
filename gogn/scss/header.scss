@@ -1,9 +1,16 @@
 .forsida {
+  font-family: "Merriweather";
   background-image: url("bg.jpg");
-  background-size: cover;
+  background-size:cover;
   background-attachment: fixed;
   background-position: 50% 50%;
   height: 20em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.forsida > p {
 
 }
 
