@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-h1 {
-  color: red;
-=======
 // breytur fyrir mikið notaðar stærðir
 $max-width: 1200px;
 $gutter: 20px;
@@ -9,7 +5,6 @@ $gutter: 20px;
 /* setjum box-sizing: border-box; á allt */
 html { /* stylelint-disable-line */
   box-sizing: border-box;
->>>>>>> a68bf34ef3d8b59b3b32e3c1c1f6b527dd85c4a6
 }
 
 *, *:before, *:after { /* stylelint-disable-line */
