@@ -1,0 +1,11 @@
+{
+  "name": "stort_verkefni_1",
+  "version": "1.0.0",
+  "description": "Fyrra hópverkefnið í vefforritun",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
