@@ -1,8 +1,13 @@
+<<<<<<< HEAD
 @charset "UTF-8";
 /* setjum box-sizing: border-box; á allt */
 html {
   /* stylelint-disable-line */
   box-sizing: border-box; }
+=======
+h1 {
+  color: red; }
+>>>>>>> d4db89a230e2424f76730c25d727f9d74a5d889d
 
 *, *:before, *:after {
   /* stylelint-disable-line */
