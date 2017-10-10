@@ -5,11 +5,108 @@
 		<title>index</title>
 	</head>
 	<body>
-		<header>
+		<nav>
 			<a href="index.html"> FORSÍÐA </a>
 			<a href="about.html"> ABOUT </a>
 			<a href="buy.html"> BUY </a>
-		</header>
-
+		</nav>
+		<h1>Kaupa</h1>
+		<section class="personalinfo">
+			<h2>Persónuupplýsingar</h2>
+		<div>
+			<div>
+				 <label for="name">Nafn:</label>
+				 <div>
+				   <input type="text" name="name" id="name" required>
+			     <div>
+				     <label>Kennitala:</label>
+				       <div>
+				         <input name="kennitala" maxlength="10" placeholder="123456-7890" type="text">
+				         <div>
+					         <label>Kyn:</label>
+			             <div>
+					           <input type="radio" name="gender" value="male"> Male
+			               <div>
+					             <input type="radio" name="gender" value="female"> Female			                  <div>
+				                <input type="radio" name="gender" value="other"> Other
+		                    <div>
+				                  <label>Sími:</label>
+			                    <div>
+				                    <input type="tel" name="sími" placeholder="+354 812 3456">
+				                     <div>
+				                       <label>Heimilisfang:</label>
+			                         <div>
+				                         <input type="text" name="heimilisfang">
+			                           <div>
+				                            <input type="checkbox" checked> Skrá mig á póstlista
+																		<div>
+																			<input type="number">
+																		</div>
+			                         </div>
+			                       </div>
+			                     </div>
+			                   </div>
+			                 </div>
+			               </div>
+			             </div>
+			           </div>
+			         </div>
+			       </div>
+			     </div>
+			   </div>
+			 </div>
+     </div>
+		</section>
+		<section class="paymentinfo">
+			<h2>Greiðsluuplýsingar</h2>
+			<div>
+				<label>Greiða með:</label>
+			  <div>
+					<select name="Greiðsluaðferð">
+					<option value="creditcard">Kreditkort</option>
+					<option value="millifæra">Millifærslu</option>
+					<option value="cash">Reiðufé</option>
+				  </select>
+				  <div>
+						<label>Nafn á korti:</label>
+						<div>
+							<input type="text" name="Nameofcard">
+							<div>
+								<label>Kortanúmer:</label>
+								<div>
+									<input type="text" name="cardnumber" placeholder="5999-9999-9999-9999">
+									<div>
+										<label>Gildistími:</label>
+										<div>Mán
+										  <select name="gildistimi">
+											<option value="1">01</option>
+											<option value="2">02</option>
+											<option value="3">03</option>
+											<option value="4">04</option>
+											<option value="5">05</option>
+											<option value="6">06</option>
+											<option value="7">07</option>
+											<option value="8">08</option>
+											<option value="9">09</option>
+											<option value="10">10</option>
+											<option value="11">11</option>
+											<option value="12">12</option>
+										</select> Ár
+											<select name="year">
+												<option value="2017">2017</option>
+												<option value="2018">2018</option>
+												<option value="2019">2019</option>
+												<option value="2020">2020</option>
+										  </select>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+	  </section>
+			<button>Panta</button>
   </body>
 </html>
