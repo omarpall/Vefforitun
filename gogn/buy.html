@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<title>index</title>
+		<link rel="stylesheet" href="styles.css">
 	</head>
 	<body>
 		<nav>
@@ -10,7 +11,9 @@
 			<a href="about.html"> ABOUT </a>
 			<a href="buy.html"> BUY </a>
 		</nav>
-		<h1>Kaupa</h1>
+		<header class="buy-header">
+			<h1>Kaupa</h1>
+		</header>
 		<section class="personalinfo">
 			<h2>Persónuupplýsingar</h2>
 		<div>
@@ -21,7 +24,7 @@
 			     <div>
 				     <label>Kennitala:</label>
 				       <div>
-				         <input name="kennitala" maxlength="10" placeholder="123456-7890" type="text">
+				         <input name="kennitala" maxlength="10" placeholder="123456-7890" type="text" required>
 				         <div>
 					         <label>Kyn:</label>
 			             <div>
@@ -32,16 +35,13 @@
 		                    <div>
 				                  <label>Sími:</label>
 			                    <div>
-				                    <input type="tel" name="sími" placeholder="+354 812 3456">
+				                    <input type="tel" name="sími" placeholder="+354 812 3456" required>
 				                     <div>
 				                       <label>Heimilisfang:</label>
 			                         <div>
-				                         <input type="text" name="heimilisfang">
+				                         <input type="text" name="heimilisfang" required>
 			                           <div>
 				                            <input type="checkbox" checked> Skrá mig á póstlista
-																		<div>
-																			<input type="number">
-																		</div>
 			                         </div>
 			                       </div>
 			                     </div>
@@ -107,6 +107,6 @@
 					</div>
 				</div>
 	  </section>
-			<button>Panta</button>
+			<button class="panta-button">Panta</button>
   </body>
 </html>
