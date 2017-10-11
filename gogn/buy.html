@@ -11,36 +11,40 @@
 			<a href="about.html"> ABOUT </a>
 			<a href="buy.html"> BUY </a>
 		</nav>
-		<header class="buy-header">
+	<header class="buy-header">
+		<div class="headerimg">
 			<h1>Kaupa</h1>
-		</header>
+			<img src="bg-subpage.jpg" alt="headerimg">
+		</div>
+	</header>
 		<section class="personalinfo">
 			<h2>Persónuupplýsingar</h2>
 		<div>
-			<div>
+			<div class="name">
 				 <label for="name">Nafn:</label>
 				 <div>
-				   <input type="text" name="name" id="name" required>
-			     <div>
+				   <input type="text" name="name" id="name" class="length25" required>
+			     <div class="kennitala">
 				     <label>Kennitala:</label>
 				       <div>
-				         <input name="kennitala" maxlength="10" placeholder="123456-7890" type="text" required>
-				         <div>
+				         <input name="kennitala" maxlength="10" placeholder="123456-7890" type="text" class="length25" required>
+				         <div class="gender">
 					         <label>Kyn:</label>
 			             <div>
-					           <input type="radio" name="gender" value="male"> Male
+										 <input type="radio" name="gender" value="female"> Kona
 			               <div>
-					             <input type="radio" name="gender" value="female"> Female			                  <div>
-				                <input type="radio" name="gender" value="other"> Other
-		                    <div>
+											 <input type="radio" name="gender" value="male"> Karl
+											 <div>
+				                <input type="radio" name="gender" value="other"> Annað
+		                    <div class="phone">
 				                  <label>Sími:</label>
 			                    <div>
-				                    <input type="tel" name="sími" placeholder="+354 812 3456" required>
-				                     <div>
+				                    <input type="tel" name="sími" placeholder="+354 812 3456" class="length25" required>
+				                     <div class="address">
 				                       <label>Heimilisfang:</label>
 			                         <div>
-				                         <input type="text" name="heimilisfang" required>
-			                           <div>
+				                         <input type="text" name="heimilisfang" class="length25" required>
+			                           <div class="checkbox">
 				                            <input type="checkbox" checked> Skrá mig á póstlista
 			                         </div>
 			                       </div>
@@ -59,23 +63,23 @@
 		</section>
 		<section class="paymentinfo">
 			<h2>Greiðsluuplýsingar</h2>
-			<div>
+			<div class="payment">
 				<label>Greiða með:</label>
 			  <div>
-					<select name="Greiðsluaðferð">
+					<select name="Greiðsluaðferð" class="length25">
 					<option value="creditcard">Kreditkort</option>
 					<option value="millifæra">Millifærslu</option>
 					<option value="cash">Reiðufé</option>
 				  </select>
-				  <div>
+				  <div class="cardname">
 						<label>Nafn á korti:</label>
 						<div>
-							<input type="text" name="Nameofcard">
-							<div>
+							<input type="text" name="Nameofcard" class="length25" required>
+							<div class="cardnumber">
 								<label>Kortanúmer:</label>
 								<div>
-									<input type="text" name="cardnumber" placeholder="5999-9999-9999-9999">
-									<div>
+									<input type="text" name="cardnumber" placeholder="5999-9999-9999-9999" class="length25" required>
+									<div class="gildistimi">
 										<label>Gildistími:</label>
 										<div>Mán
 										  <select name="gildistimi">
@@ -107,6 +111,8 @@
 					</div>
 				</div>
 	  </section>
+		<div>
 			<button class="panta-button">Panta</button>
+		</div>
   </body>
 </html>
