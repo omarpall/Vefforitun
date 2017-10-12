@@ -1,0 +1,64 @@
+.buyimage {
+  width: 100%;
+  background: url(bg-subpage.jpg);
+  background-size: 50% 50%;
+  background-size: cover;
+  min-height: 30em;
+}
+h1 {
+  position: absolute;
+  top: 250px;
+  left: 0;
+  width: 100%;
+  padding: 16px;
+}
+.main {
+  max-width: 1200px;
+}
+.personalinfo {
+  float: left;
+  margin-left: 5em;
+  margin-top: 3em;
+}
+.paymentinfo {
+  float: right;
+  margin-right: 5em;
+  margin-top: 3em;
+}
+.name {
+  margin-top: 1em;
+}
+.kennitala {
+  margin-top: 0.5em;
+}
+.gender {
+  margin-top: 0.5em;
+}
+.phone {
+  margin-top: 0.5em;
+}
+.address {
+  margin-top: 0.5em;
+}
+.checkbox {
+  margin-top: 0.5em;
+}
+.payment {
+  margin-top: 1em;
+}
+.cardname {
+  margin-top: 0.5em;
+}
+.cardnumber {
+  margin-top: 0.5em;
+}
+.gildistimi {
+  margin-top: 0.5em;
+}
+.length25 {
+  width: 20em;
+}
+.panta-button {
+  justify-content: center;
+  align-items: center;
+}
