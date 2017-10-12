@@ -2,12 +2,14 @@ ul {
   list-style: none;
 
   margin: 2em 0em 2em 2em;
-  
+
 }
 li {
   position: relative;
 }
-
+li > p:first-child {
+  font-weight: bold;
+}
 li::before {
   position: absolute;
   display: block;
