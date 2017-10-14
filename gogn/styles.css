@@ -49,11 +49,6 @@ main {
 .header-image {
   width: 100%;
   background: url(bg-subpage.jpg);
-<<<<<<< HEAD
-  background-size: 50% 50%;
-  background-size: cover;
-  min-height: 30em; }
-=======
   background-size: cover;
   min-height: 18em;
   text-align: left;
@@ -70,7 +65,6 @@ header {
 
 .about-article {
   padding-left: 1em; }
->>>>>>> ca132e1efc8c891b7a763875ee74ae4d7fbc0dd8
 
 .block {
   margin-top: 2em;
@@ -81,12 +75,19 @@ header {
   float: right;
   position: relative;
   width: 60%;
-  padding: 2em 5em 2em 4em; }
+  padding: 2em 3em 6em 3em; }
+
+@media (max-width: 400px) {
+  .about-blockquote {
+    width: 100%; } }
 
 .quote {
   font-style: italic;
-  font-size: 1.5em;
+  font-size: 1.3125em;
   padding-bottom: 1em; }
+
+.author {
+  font-size: 0.875em; }
 
 main {
   font-family: 'Open Sans'; }
@@ -103,12 +104,35 @@ button {
 
 nav {
   background-color: rgba(0, 0, 0, 0.8);
-  color: red;
-  position: fixed;
-  width: 100%; }
+  position: absolute;
+  width: 100%;
+  height: 2.75em; }
 
 nav > a {
-  color: white; }
+  color: white;
+  text-decoration: none;
+  position: absolute; }
+
+.index-link {
+  font-family: 'Roboto Slab';
+  font-size: 1.5em;
+  font-weight: bold;
+  top: 0.15em;
+  left: 0.75em; }
+
+.about-link {
+  font-size: 1.125em;
+  right: 7em;
+  top: 0.5em; }
+
+.buy-link {
+  font-size: 1.125em;
+  right: 2em;
+  top: 0.25em;
+  background-color: #666666;
+  border-radius: 0.25em;
+  padding: 0.25em 1em 0.25em 0.5em;
+  width: 4em; }
 
 ul {
   list-style: none;
@@ -137,7 +161,6 @@ li::before {
   background-size: 1.2em 1.2em;
   background-position: 0em 0.2em; }
 
-<<<<<<< HEAD
 .buyimage {
   width: 100%;
   background: url(bg-subpage.jpg);
@@ -194,10 +217,13 @@ h1 {
 
 .gildistimi {
   margin-top: 0.5em; }
-=======
-div {
-  width: 100%; }
->>>>>>> ca132e1efc8c891b7a763875ee74ae4d7fbc0dd8
+
+.length25 {
+  width: 20em; }
+
+.panta-button {
+  justify-content: center;
+  align-items: center; }
 
 section {
   padding: 4em 0 4em 0; }

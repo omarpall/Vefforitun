@@ -8,15 +8,24 @@
   margin-right: 2em;
 }
 
-.about-blockquote{
+.about-blockquote {
   float: right;
   position: relative;
   width: 60%;
-  padding: 2em 5em 2em 4em;
+  padding: 2em 3em 6em 3em; }
+  @media (max-width: 400px) {
+    .about-blockquote{
+      width: 100%;
+    }
+  }
+
+
+.quote {
+  font-style: italic;
+  font-size: 1.3125em;
+  padding-bottom: 1em;
 }
 
-.quote{
-  font-style: italic;
-  font-size: 1.5em;
-  padding-bottom: 1em;
+.author {
+  font-size: 0.875em;
 }
