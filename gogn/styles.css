@@ -49,6 +49,11 @@ main {
 .header-image {
   width: 100%;
   background: url(bg-subpage.jpg);
+<<<<<<< HEAD
+  background-size: 50% 50%;
+  background-size: cover;
+  min-height: 30em; }
+=======
   background-size: cover;
   min-height: 18em;
   text-align: left;
@@ -65,6 +70,7 @@ header {
 
 .about-article {
   padding-left: 1em; }
+>>>>>>> ca132e1efc8c891b7a763875ee74ae4d7fbc0dd8
 
 .block {
   margin-top: 2em;
@@ -131,8 +137,67 @@ li::before {
   background-size: 1.2em 1.2em;
   background-position: 0em 0.2em; }
 
+<<<<<<< HEAD
+.buyimage {
+  width: 100%;
+  background: url(bg-subpage.jpg);
+  background-size: 50% 50%;
+  background-size: cover;
+  min-height: 30em; }
+
+h1 {
+  position: absolute;
+  top: 250px;
+  left: 0;
+  width: 100%;
+  padding: 16px; }
+
+.main {
+  max-width: 1200px; }
+
+.personalinfo {
+  float: left;
+  margin-left: 5em;
+  margin-top: 3em; }
+
+.paymentinfo {
+  float: right;
+  margin-right: 5em;
+  margin-top: 3em; }
+
+.name {
+  margin-top: 1em; }
+
+.kennitala {
+  margin-top: 0.5em; }
+
+.gender {
+  margin-top: 0.5em; }
+
+.phone {
+  margin-top: 0.5em; }
+
+.address {
+  margin-top: 0.5em; }
+
+.checkbox {
+  margin-top: 0.5em; }
+
+.payment {
+  margin-top: 1em; }
+
+.cardname {
+  margin-top: 0.5em; }
+
+.cardnumber {
+  margin-top: 0.5em; }
+
+.gildistimi {
+  margin-top: 0.5em; }
+=======
 div {
   width: 100%; }
+>>>>>>> ca132e1efc8c891b7a763875ee74ae4d7fbc0dd8
 
 section {
   padding: 4em 0 4em 0; }
