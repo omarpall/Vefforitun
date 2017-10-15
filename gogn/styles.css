@@ -34,6 +34,9 @@ main {
   padding: 0 auto;
   overflow-x: hidden; }
 
+header {
+  box-shadow: inset 0 0 0 9999999px rgba(255, 255, 255, 0.1); }
+
 .forsida {
   font-family: "Merriweather";
   background-image: url("bg.jpg");
@@ -95,12 +98,36 @@ main {
 h1, h2 {
   font-family: 'Roboto Slab'; }
 
-button {
-  background-color: grey;
-  color: white;
-  border: 0;
-  margin: 1em;
-  padding: 1em 2em 1em 2em; }
+.button {
+  display: inline-block;
+  max-width: 256px;
+  padding: 10px 1em;
+  margin: 0;
+  overflow: hidden;
+  font-size: 1rem;
+  color: #eee;
+  text-align: center;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  cursor: pointer;
+  background-color: #666;
+  border: 1px solid #666;
+  border-radius: 4px;
+  transition: background-color 500ms ease, color 500ms ease; }
+  .button:hover {
+    color: #eee;
+    background-color: #333; }
+  .button--inverted {
+    color: #666;
+    background-color: #eee; }
+  .button--inverted:hover {
+    color: #333;
+    background-color: #ccc; }
+  .button--disabled, .button--disabled:hover {
+    color: #999;
+    background-color: #eee;
+    border-color: #eee; }
 
 nav {
   background-color: rgba(0, 0, 0, 0.8);
@@ -161,12 +188,23 @@ li::before {
   background-size: 1.2em 1.2em;
   background-position: 0em 0.2em; }
 
+nav {
+  position: fixed; }
+
 .buyimage {
   width: 100%;
   background: url(bg-subpage.jpg);
-  background-size: 50% 50%;
+  background-size: auto auto;
   background-size: cover;
-  min-height: 30em; }
+  min-height: 18em;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  font-size: 2em;
+  padding-left: 0.5em;
+  margin-bottom: 2em; }
 
 h1 {
   position: absolute;
@@ -179,14 +217,10 @@ h1 {
   max-width: 1200px; }
 
 .personalinfo {
-  float: left;
-  margin-left: 5em;
-  margin-top: 3em; }
+  float: left; }
 
 .paymentinfo {
-  float: right;
-  margin-right: 5em;
-  margin-top: 3em; }
+  float: right; }
 
 .name {
   margin-top: 1em; }
@@ -222,17 +256,66 @@ h1 {
   width: 20em; }
 
 .panta-button {
-  justify-content: center;
-  align-items: center; }
+  position: absolute;
+  margin-top: 70em;
+  display: inline-block;
+  padding: 10px 5px;
+  border: 1px solid #666;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 256px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #eee;
+  background-color: #666;
+  font-size: 1rem;
+  text-decoration: none;
+  text-align: center; }
+
+.panta-button:hover {
+  color: #eee;
+  background-color: #333; }
+
+.pantadiv {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center; }
+
+footer {
+  bottom: 0;
+  width: 100%;
+  margin-top: 10em;
+  background: #D3D3D3; }
+
+main {
+  max-width: 1200px; }
 
 section {
   padding: 4em 0 4em 0; }
+
+.notandi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center; }
+
+.notandi > blockquote {
+  font-weight: bold;
+  font-style: italic; }
+
+.notandi > img {
+  border-radius: 100%;
+  width: 90%; }
 
 .why-wait {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  font-size: 1.5em; }
 
 .row {
   display: flex;
@@ -261,10 +344,20 @@ section {
       width: 50%; }
     .col-sm-3 {
       width: 25%; } }
+  @media (max-width: 399px) {
+    .col-xsm-12 {
+      width: 100%; }
+    .col-xsm-6 {
+      width: 50%; }
+    .col-xsm-3 {
+      width: 25%; } }
 
 .offset-2 {
   margin-left: 16.66667%; }
 
 @media (max-width: 599px) {
-  .offset-sm-0 {
-    margin-left: 0; } }
+  .offset-sm-3 {
+    margin-left: 25%; } }
+
+footer {
+  background-color: grey; }
