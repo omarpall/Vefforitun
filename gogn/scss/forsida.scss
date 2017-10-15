@@ -2,9 +2,25 @@ section{
   padding: 4em 0 4em 0;
 }
 
+.notandi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+.notandi > blockquote {
+  font-weight: bold;
+  font-style: italic;
+}
+.notandi > img {
+  border-radius: 100%;
+  width: 90%;
+}
 .why-wait {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-size: 1.5em;
 }

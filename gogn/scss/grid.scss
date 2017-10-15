@@ -51,6 +51,21 @@
       }
     }
   }
+  &-xsm {
+    @media (max-width: 399px) {
+      &-12 {
+        @include columns(12);
+      }
+
+      &-6 {
+        @include columns(6);
+      }
+
+      &-3 {
+        @include columns(3);
+      }
+    }
+  }
 }
 
 .offset {
@@ -60,8 +75,8 @@
 
   &-sm {
     @media (max-width: 599px) {
-      &-0 {
-        margin-left: 0;
+      &-3 {
+        margin-left: (3 / 12 * 100) * 1%;
       }
     }
   }
