@@ -1,5 +1,5 @@
 header {
-  box-shadow: inset 0 0 0 9999999px rgba(255, 255, 255, 0.1);
+  box-shadow: inset 0 0 0 9999999px rgba(255, 255, 255, 0.2);
 }
 .forsida {
   font-family: "Merriweather";
@@ -8,14 +8,32 @@ header {
   background-size:cover;
   background-attachment: fixed;
   background-position: 50% 50%;
-  height: 20em;
+
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+.forsida > h1 {
+  animation: fadeInOnLoad 2s;
+}
 .forsida > p {
-
+  animation: fadeInOnLoad 1s;
+}
+.forsida > a {
+  animation: fadeInOnLoad 3s;
+}
+@keyframes fadeInOnLoad {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .header-image {
@@ -31,8 +49,4 @@ header {
   font-size: 2em;
   padding-left: 0.5em;
   margin-bottom: 2em;
-}
-
-header{
-  box-shadow: inset 0 0 0 999999px rgba(255,255,255,.2);
 }

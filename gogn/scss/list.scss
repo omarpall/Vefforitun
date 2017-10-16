@@ -2,12 +2,11 @@ ul {
   list-style: none;
 
   margin: 2em 0em 2em 2em;
-  width: 100%;
-  height: 100%;
+  width: 90%;
+  height: 90%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-
+  justify-content: space-around;
 
 }
 
@@ -28,4 +27,16 @@ li::before {
   background-image: url("check.svg");
   background-size: 1.2em 1.2em;
   background-position: 0em 0.2em;
+}
+
+.listrow {
+  margin-top: 5em;
+  margin-bottom: 55em;
+}
+
+.list--image{
+  margin-top: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

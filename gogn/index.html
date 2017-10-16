@@ -3,25 +3,24 @@
 	<head>
 		<meta charset="utf-8">
 		<title>forsíða</title>
-		<link href="https://fonts.googleapis.com/css?family=Lato|Merriweather" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Lato|Merriweather|Open+Sans|Roboto+Slab" rel="stylesheet">
 		<link rel="stylesheet" href="styles.css">
 	</head>
 	<body>
 		<nav>
-			<a href="index.html"> Fooþjónustan </a>
-			<a href="about.html"> ABOUT </a>
-			<a href="buy.html"> BUY </a>
-		</nav>
-
+			<a href="index.html" class="index-link"> Fooþjónustan </a>
+			<a href="about.html" class="about-link"> Um </a>
+			<a href="buy.html" class="buy-link"> Kaupa </a>
+  	</nav>
 		<header class="forsida">
 			<p> Í fyrsta skipti á Íslandi </p>
 			<h1> Fooþjónustan </h1>
-			<button type="button" name="button" class="button">Kaupa</button>
+			<a href="buy.html" class="buy-link"> Kaupa </a>
 		</header>
 
 		<main>
-			<section>
-				<div class="row">
+			<section class="main-section">
+				<div class="row listrow">
 					<div class="col col-6 col-sm-12">
 						<ul>
 							<li>
@@ -39,8 +38,8 @@
 						</ul>
 
 					</div>
-					<div class="col col-6 col-sm-12">
-						<img src="image.jpg" alt="navigation equipment" width="100%">
+					<div class="col col-6 col-sm-12 list--image">
+						<img src="image.jpg" alt="navigation equipment" class="list--img">
 					</div>
 
 
@@ -49,7 +48,7 @@
 			</section>
 
 
-			<section>
+			<section class="main-section">
 				<div class="row">
 
 					<div class="notandi col col-4 col-sm-6">
@@ -76,21 +75,27 @@
 
 			</section>
 
-			<section class="why-wait">
+			<section class="main-section why-wait">
 				<p> Eftir hverju ert þú að bíða ?</p>
 				<button type="button" name="button" class="button">Kaupa</button>
 			</section>
 
 		</main>
 
-		<footer>
+		<footer class="footer">
+			<div class="footer--left">
 				<p> Fooþjónustan </p>
 				<p> 123-4567 </p>
+			</div>
+			<div class="footer--right">
 				<p> Opið 12-13 alla daga</p>
 				<p> Bargata 1</p>
 				<p> 900 Foobar </p>
-
+			</div>
+			<div class="footer--bottom">
 				<p> © Fooþjónustan 2017 </p>
+			</div>
+
 		</footer>
 
 	</body>
