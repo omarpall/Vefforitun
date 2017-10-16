@@ -21,7 +21,7 @@
 
 	 <main class="buy--main">
 		<section class="personalinfo">
-			<h2>Persónuupplýsingar</h2>
+			<h2 class="buy--h2">Persónuupplýsingar</h2>
 		<div>
 			<div class="name">
 				 <label for="name">Nafn:</label>
@@ -65,7 +65,7 @@
      </div>
 		</section>
 		<section class="paymentinfo">
-			<h2>Greiðsluuplýsingar</h2>
+			<h2 class="buy--h2">Greiðsluuplýsingar</h2>
 			<div class="payment">
 				<label>Greiða með:</label>
 			  <div>
@@ -84,8 +84,9 @@
 									<input type="text" name="cardnumber" placeholder="5999-9999-9999-9999" class="length25" required>
 									<div class="gildistimi">
 										<label>Gildistími:</label>
-										<div>Mán
-										  <select name="gildistimi">
+										<div class="gildistimi--div">
+											<label>Mán</label>
+										  <select name="gildistimi" class="gildistimi--man">
 											<option value="1">01</option>
 											<option value="2">02</option>
 											<option value="3">03</option>
@@ -98,16 +99,14 @@
 											<option value="10">10</option>
 											<option value="11">11</option>
 											<option value="12">12</option>
-										</select> Ár
-											<select name="year">
+										</select>
+										  <label class="label--ar">Ár</label>
+											<select name="year" class="gildistimi--ar">
 												<option value="2017">2017</option>
 												<option value="2018">2018</option>
 												<option value="2019">2019</option>
 												<option value="2020">2020</option>
 										  </select>
-											<div class="pantadiv">
-												<button class="panta-button">Panta</button>
-											</div>
 											</div>
 										</div>
 									</div>
@@ -116,6 +115,11 @@
 						</div>
 					</div>
 				</div>
+	  </section>
+		<section class="panta-section">
+
+			<button class="panta-button">Panta</button>
+
 	  </section>
   </main>
 		<footer class="buy--footer">
