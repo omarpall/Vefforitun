@@ -3,144 +3,123 @@
 	<head>
 		<meta charset="utf-8">
 		<title>index</title>
-		<link href="https://fonts.googleapis.com/css?family=Lato|Merriweather" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Lato|Merriweather|Open+Sans|Roboto+Slab" rel="stylesheet">
 		<link rel="stylesheet" href="styles.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
-<body class="buy--body">
-
+	<body>
 		<nav>
-				<a href="index.html" class="index-link"> Fooþjónustan </a>
-				<a href="about.html" class="about-link"> Um </a>
-				<a href="buy.html" class="buy-link"> Kaupa </a>
-		  </nav>
+			<a href="index.html" class="index-link"> Fooþjónustan </a>
+			<a href="about.html" class="about-link"> Um </a>
+			<a href="buy.html" class="buy-link"> Kaupa </a>
+		</nav>
 
-	<header class="buyimage">
-			<h1 class="buy--title">Kaupa</h1>
-	</header>
+		<header class="header-image">
+				<h1 class="buy--title">Kaupa</h1>
+		</header>
 
-	 <main class="buy--main">
-		<section class="personalinfo">
-			<h2 class="buy--1h2">Persónuupplýsingar</h2>
-		<div>
-			<div class="name">
-				 <label for="name">Nafn:</label>
-				 <div>
-				   <input type="text" name="name" id="name" class="length25" required>
-			     <div class="kennitala">
-				     <label>Kennitala:</label>
-				       <div>
-				         <input name="kennitala" maxlength="10" placeholder="123456-7890" type="text" class="length25" required>
-				         <div class="gender">
-					         <label>Kyn:</label>
-			             <div>
-										 <input type="radio" name="gender" value="female"> Kona
-			               <div>
-											 <input type="radio" name="gender" value="male"> Karl
-											 <div>
-				                <input type="radio" name="gender" value="other"> Annað
-		                    <div class="phone">
-				                  <label>Sími:</label>
-			                    <div>
-				                    <input type="tel" name="sími" placeholder="+354 812 3456" class="length25" required>
-				                     <div class="address">
-				                       <label>Heimilisfang:</label>
-			                         <div>
-				                         <input type="text" name="heimilisfang" class="length25" required>
-			                           <div class="checkbox">
-				                            <input type="checkbox" checked> Skrá mig á póstlista
-			                         </div>
-			                       </div>
-			                     </div>
-			                   </div>
-			                 </div>
-			               </div>
-			             </div>
-			           </div>
-			         </div>
-			       </div>
-			     </div>
-			   </div>
-			 </div>
-     </div>
-		</section>
-		<section class="paymentinfo">
-			<h2 class="buy--2h2">Greiðsluuplýsingar</h2>
-			<div class="payment">
-				<label>Greiða með:</label>
-			  <div>
-					<select name="Greiðsluaðferð" class="length25">
-					<option value="creditcard">Kreditkort</option>
-					<option value="millifæra">Millifærslu</option>
-					<option value="cash">Reiðufé</option>
-				  </select>
-				  <div class="cardname">
+		<main>
+			<section>
+				<div class="row">
+					<div class="input--col col col-4 col-sm-12 offset-1 offset-sm-0">
+						<h2>Persónuupplýsingar</h2>
+
+						<label for="name">Nafn:</label>
+						<input type="text" name="name" id="name"  required>
+
+						<label for="kennitala">Kennitala:</label>
+						<input name="kennitala" maxlength="10" placeholder="123456-7890" type="text" required>
+
+						<p>Kyn:</p>
+						<label>
+							<input type="radio" name="gender" value="female"> Kona
+						</label>
+						<label>
+							<input type="radio" name="gender" value="male"> Karl
+						</label>
+						<label>
+							<input type="radio" name="gender" value="other"> Annað
+						</label>
+
+						<label for="sími">Sími:</label>
+						<input type="tel" name="sími" placeholder="+354 812 3456" class="" required>
+
+						<label for="heimilisfang">Heimilisfang:</label>
+						<input type="text" name="heimilisfang" class="" required>
+
+						<label>
+							<input type="checkbox" checked> Skrá mig á póstlista
+						</label>
+
+					</div>
+
+					<div class="input--col col col-4 col-sm-12 offset-2 offset-sm-0">
+						<h2> Greiðsluuplýsingar </h2>
+
+						<label>Greiða með:</label>
+						<select name="Greiðsluaðferð">
+							<option value="creditcard">Kreditkort</option>
+							<option value="millifæra">Millifærslu</option>
+							<option value="cash">Reiðufé</option>
+						</select>
+
 						<label>Nafn á korti:</label>
-						<div>
-							<input type="text" name="Nameofcard" class="length25" required>
-							<div class="cardnumber">
-								<label>Kortanúmer:</label>
-								<div>
-									<input type="text" name="cardnumber" placeholder="5999-9999-9999-9999" class="length25" required>
-									<div class="gildistimi">
-										<label>Gildistími:</label>
-										<div class="gildistimi--div">
-											<label>Mán</label>
-										  <select name="gildistimi" class="gildistimi--man">
-											<option value="1">01</option>
-											<option value="2">02</option>
-											<option value="3">03</option>
-											<option value="4">04</option>
-											<option value="5">05</option>
-											<option value="6">06</option>
-											<option value="7">07</option>
-											<option value="8">08</option>
-											<option value="9">09</option>
-											<option value="10">10</option>
-											<option value="11">11</option>
-											<option value="12">12</option>
-										</select>
-										  <label class="label--ar">Ár</label>
-											<select name="year" class="gildistimi--ar">
-												<option value="2017">2017</option>
-												<option value="2018">2018</option>
-												<option value="2019">2019</option>
-												<option value="2020">2020</option>
-										  </select>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
+						<input type="text" name="Nameofcard" required>
+
+						<label>Kortanúmer:</label>
+						<input type="text" name="cardnumber" placeholder="5999-9999-9999-9999" required>
+
+						<label>Gildistími:</label>
+						<div class="gildistimi">
+							<label for="gildistimi">Mán</label>
+							<select name="gildistimi" class="gildistimi--man">
+								<option value="1">01</option>
+								<option value="2">02</option>
+								<option value="3">03</option>
+								<option value="4">04</option>
+								<option value="5">05</option>
+								<option value="6">06</option>
+								<option value="7">07</option>
+								<option value="8">08</option>
+								<option value="9">09</option>
+								<option value="10">10</option>
+								<option value="11">11</option>
+								<option value="12">12</option>
+							</select>
+							<label>Ár</label>
+							<select name="year" class="gildistimi--ar">
+								<option value="2017">2017</option>
+								<option value="2018">2018</option>
+								<option value="2019">2019</option>
+								<option value="2020">2020</option>
+							</select>
+
 						</div>
+
 					</div>
 				</div>
-	  </section>
-		<section class="panta-section">
+			</section>
 
-			<button class="panta-button">Panta</button>
 
-	  </section>
-  </main>
-		<footer class="buy--footer">
-		  <section class="footer--1">
-				<div class="footer--div1">
-			<p> Fooþjónustan </p>
-			<p> 123-4567 </p>
-		   </div>
+			<section class="panta-section">
+				<button class="panta-button">Panta</button>
 		  </section>
-			<section class="footer--2">
-			  <div class="footer--div2">
-			<p> Opið 12-13 alla daga</p>
-			<p> Bargata 1</p>
-			<p> 900 Foobar </p>
-		   </div>
-		  </section>
-      <section class="footer--3">
-				<div class="footer--div3">
-			<p> © Fooþjónustan 2017 </p>
-		  </div>
-		  </section>
+		</main>
+
+		<footer class="footer">
+			<div class="footer--left">
+				<p> Fooþjónustan </p>
+				<p> 123-4567 </p>
+			</div>
+			<div class="footer--right">
+				<p> Opið 12-13 alla daga</p>
+				<p> Bargata 1</p>
+				<p> 900 Foobar </p>
+			</div>
+			<div class="footer--bottom">
+				<p> © Fooþjónustan 2017 </p>
+			</div>
+
 		</footer>
- </body>
+	</body>
 </html>

@@ -4,7 +4,7 @@
   "description": "Fyrra hópverkefnið í vefforritun",
   "main": "index.js",
   "scripts": {
-    "browser-sync": "browser-sync start --server --files index.html styles.css",
+    "browser-sync": "browser-sync start --server --files index.html styles.css buy.html about.html",
     "sass": "node-sass styles.scss styles.css -w",
     "dev": "npm-run-all --parallel sass browser-sync",
     "lint": "stylelint *.scss scss/*.scss --syntax scss"
