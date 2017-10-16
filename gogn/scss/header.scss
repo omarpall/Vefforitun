@@ -16,22 +16,29 @@ header {
   align-items: center;
 }
 .forsida > h1 {
-  animation: fadeInOnLoad 2s;
+  opacity: 0;
+  animation: fadeInOnLoad 2s 1 forwards;
+  animation-delay: 2s;
+  font-size: 3em;
+  font-weight: bold;
+  margin: 0.5em;
 }
 .forsida > p {
-  animation: fadeInOnLoad 1s;
+  opacity: 0;
+  animation: fadeInOnLoad 2s 1 forwards;
+  animation-delay: 1s;
+  font-size: 1.4em;
 }
 .forsida > a {
-  animation: fadeInOnLoad 3s;
+  opacity: 0;
+  animation: fadeInOnLoad 2s 1 forwards;
+  animation-delay: 3s;
 }
 @keyframes fadeInOnLoad {
-  0% {
+  from {
     opacity: 0;
   }
-  50% {
-    opacity: 0;
-  }
-  100% {
+  to {
     opacity: 1;
   }
 }
