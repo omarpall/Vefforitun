@@ -232,7 +232,10 @@ nav {
   align-items: center;
   justify-content: space-between; }
 
-.buy--h2 {
+.buy--1h2 {
+  margin-right: 2.5em; }
+
+.buy--2h2 {
   margin-right: 3em; }
 
 .gildistimi--man {
@@ -273,13 +276,44 @@ nav {
   display: flex;
   flex-wrap: wrap;
   align-content: center;
-  justify-content: center; }
+  justify-content: center;
+  margin-top: 11em; }
 
 .buy--footer {
   bottom: 0;
   width: 100%;
-  margin-top: 10em;
+  margin-top: 6em;
   background: #D3D3D3; }
+
+.footer--1 {
+  width: 50%;
+  float: left;
+  display: inline;
+  margin-bottom: 1em; }
+
+.footer--div1 {
+  justify-content: center;
+  align-items: center;
+  margin-left: 24em; }
+
+.footer--2 {
+  width: 50%;
+  float: right;
+  display: inline;
+  margin-bottom: 1em; }
+
+.footer--div2 {
+  justify-content: center;
+  align-items: center;
+  margin-left: 5em; }
+
+.footer--3 {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center; }
 
 @media screen and (max-width: 1199px) {
   .buy--main {
@@ -289,6 +323,8 @@ nav {
   .paymentinfo {
     width: 50%; }
   .buyimage {
+    width: 100%; }
+  .buy--footer {
     width: 100%; } }
 
 @media screen and (max-width: 640px) {
@@ -333,9 +369,6 @@ nav {
 
 .length25 {
   width: 20em; }
-
-section {
-  padding: 4em 0 4em 0; }
 
 .notandi {
   display: flex;
