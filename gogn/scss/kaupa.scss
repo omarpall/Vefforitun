@@ -1,3 +1,7 @@
+.buy--body {
+  width: 1200px;
+  margin: 0px auto;
+}
 nav {
   position: fixed;
 }
@@ -23,14 +27,13 @@ nav {
   width: 100%;
   padding: 16px;
 }
-.main {
-  max-width: 1200px;
-}
 .personalinfo {
   float: left;
+  width: 600px;
 }
 .paymentinfo {
   float: right;
+  width: 600px;
 }
 .name {
   margin-top: 1em;
@@ -67,7 +70,7 @@ nav {
 }
 .panta-button {
   position: absolute;
-  margin-top: 70em;
+  margin: 450px 610px 0 0;
   display: inline-block;
   padding: 10px 5px;
   border: 1px solid #666;
@@ -99,6 +102,33 @@ nav {
   margin-top: 10em;
   background: #D3D3D3;
 }
-.buy--main {
-  max-width: 1200px;
+
+@media screen and (max-width:1199px) {
+  .buy--body {
+    width: 100%;
+ }
+ .personalinfo {
+  width: 50%;
+ }
+ .paymentinfo {
+  width: 50%;
+ }
+ .buyimage {
+  width: 100%;
+ }
+}
+
+@media screen and (max-width:640px) {
+  .personalinfo {
+   width: 100%;
+  }
+  .paymentinfo {
+   width: 100%;
+ }
+}
+
+@media screen and (max-width:320px) {
+  .buy--body {
+    width: 320px;
+ }
 }
