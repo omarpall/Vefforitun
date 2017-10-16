@@ -1,11 +1,11 @@
 .footer {
-  background-color: #555;
+  background-color: #353535;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   color: #eee;
   display: flex;
-  padding: 2em 3em 1em 3em;
+  padding: 1em 3em 0.5em 3em;
 
   &--left{
     width: 50%;
@@ -19,6 +19,6 @@
     text-align: center;
     width: 100%;
     border-top: 1px solid #aaa;
-
+    margin-top: 1em;
   }
 }
