@@ -7,7 +7,7 @@
 		<link rel="stylesheet" href="styles.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
-	<body>
+<body class="buy--body">
 
 		<nav>
 				<a href="index.html" class="index-link"> Fooþjónustan </a>
@@ -16,12 +16,12 @@
 		  </nav>
 
 	<header class="buyimage">
-			<h1>Kaupa</h1>
+			<h1 class="buy--title">Kaupa</h1>
 	</header>
 
-	 <main class="main">
+	 <main class="buy--main">
 		<section class="personalinfo">
-			<h2>Persónuupplýsingar</h2>
+			<h2 class="buy--h2">Persónuupplýsingar</h2>
 		<div>
 			<div class="name">
 				 <label for="name">Nafn:</label>
@@ -65,7 +65,7 @@
      </div>
 		</section>
 		<section class="paymentinfo">
-			<h2>Greiðsluuplýsingar</h2>
+			<h2 class="buy--h2">Greiðsluuplýsingar</h2>
 			<div class="payment">
 				<label>Greiða með:</label>
 			  <div>
@@ -84,8 +84,9 @@
 									<input type="text" name="cardnumber" placeholder="5999-9999-9999-9999" class="length25" required>
 									<div class="gildistimi">
 										<label>Gildistími:</label>
-										<div>Mán
-										  <select name="gildistimi">
+										<div class="gildistimi--div">
+											<label>Mán</label>
+										  <select name="gildistimi" class="gildistimi--man">
 											<option value="1">01</option>
 											<option value="2">02</option>
 											<option value="3">03</option>
@@ -98,8 +99,9 @@
 											<option value="10">10</option>
 											<option value="11">11</option>
 											<option value="12">12</option>
-										</select> Ár
-											<select name="year">
+										</select>
+										  <label class="label--ar">Ár</label>
+											<select name="year" class="gildistimi--ar">
 												<option value="2017">2017</option>
 												<option value="2018">2018</option>
 												<option value="2019">2019</option>
@@ -114,12 +116,13 @@
 					</div>
 				</div>
 	  </section>
-		<div class="pantadiv">
-			<button class="panta-button">Panta</button>
-		</div>
-  </main>
+		<section class="panta-section">
 
-		<footer>
+			<button class="panta-button">Panta</button>
+
+	  </section>
+  </main>
+		<footer class="buy--footer">
 			<p> Fooþjónustan </p>
 			<p> 123-4567 </p>
 			<p> Opið 12-13 alla daga</p>
@@ -128,5 +131,5 @@
 
 			<p> © Fooþjónustan 2017 </p>
 		</footer>
-  </body>
+ </body>
 </html>

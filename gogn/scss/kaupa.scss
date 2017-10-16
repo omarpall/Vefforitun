@@ -1,3 +1,7 @@
+.buy--main {
+  width: 1200px;
+  margin: 0px auto;
+}
 nav {
   position: fixed;
 }
@@ -23,14 +27,100 @@ nav {
   width: 100%;
   padding: 16px;
 }
-.main {
-  max-width: 1200px;
-}
 .personalinfo {
   float: left;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
 .paymentinfo {
-  float: right;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.buy--h2 {
+  margin-right: 3em;
+  }
+.gildistimi--man {
+  margin-left: 1.1em;
+  width: 6em;
+}
+.gildistimi--ar {
+  margin-left: 1.1em;
+  width: 6.1em;
+}
+.label--ar {
+  margin-left: 1.1em;
+}
+.panta-button {
+  position: absolute;
+  display: inline-block;
+  padding: 10px 5px;
+  border: 1px solid #666;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 256px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #eee;
+  background-color: #666;
+  font-size: 1rem;
+  text-decoration: none;
+  text-align: center;
+}
+.panta-button:hover {
+  color: #eee;
+  background-color: #333;
+}
+
+.panta-section {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+.buy--footer {
+  bottom:0;
+  width:100%;
+  margin-top: 10em;
+  background: #D3D3D3;
+}
+
+@media screen and (max-width:1199px) {
+  .buy--main {
+    width: 100%;
+ }
+ .personalinfo {
+  width: 50%;
+ }
+ .paymentinfo {
+  width: 50%;
+ }
+ .buyimage {
+  width: 100%;
+ }
+}
+
+@media screen and (max-width:640px) {
+  .personalinfo {
+   width: 100%;
+  }
+  .paymentinfo {
+   width: 100%;
+ }
+}
+
+@media screen and (max-width:320px) {
+  .buy--main {
+    width: 320px;
+ }
 }
 .name {
   margin-top: 1em;
@@ -64,41 +154,4 @@ nav {
 }
 .length25 {
   width: 20em;
-}
-.panta-button {
-  position: absolute;
-  margin-top: 70em;
-  display: inline-block;
-  padding: 10px 5px;
-  border: 1px solid #666;
-  border-radius: 4px;
-  width: 100%;
-  max-width: 256px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  color: #eee;
-  background-color: #666;
-  font-size: 1rem;
-  text-decoration: none;
-  text-align: center;
-}
-.panta-button:hover {
-  color: #eee;
-  background-color: #333;
-}
-.pantadiv {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-}
-.buy--footer {
-  bottom:0;
-  width:100%;
-  margin-top: 10em;
-  background: #D3D3D3;
-}
-.buy--main {
-  max-width: 1200px;
 }
