@@ -22,13 +22,13 @@ html { /* stylelint-disable-line */
   margin-right: 0;
   margin-left: 0;
 
-  font-family: Open Sans;
+  font-family: "Open Sans";
   font-size: 16px;
   line-height: 1.5;
 
   @media (min-width: $max-width) {
+    padding: 0;
     margin: 0;
-    padding:0;
   }
 }
 
@@ -38,8 +38,8 @@ img { /* stylelint-disable-line */
 
 main { /* stylelint-disable-line */
   max-width: $max-width;
-  margin: 0 auto;
   padding: 0 auto;
+  margin: 0 auto;
 
   // þar sem við erum að eiga við neikvæð margin á grid, setjum overflow-x
   // hér sem hidden, þá fáum við ekki lárétta skrunstiku
