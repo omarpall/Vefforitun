@@ -8,7 +8,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
 	<body>
-		<nav>
+		<nav class="navbar">
 			<a href="index.html" class="index-link"> Fooþjónustan </a>
 			<a href="about.html" class="about-link"> Um </a>
 			<a href="buy.html" class="buy-link"> Kaupa </a>
@@ -24,31 +24,31 @@
 					<div class="input--col col col-4 col-xsm-12 offset-1 offset-xsm-0">
 						<h2>Persónuupplýsingar</h2>
 
-						<label for="name">Nafn:</label>
-						<input type="text" name="name" id="name"  required>
+						<label class="label" for="name">Nafn:</label>
+						<input type="text" name="name" id="name" class="input" required>
 
-						<label for="kennitala">Kennitala:</label>
-						<input name="kennitala" maxlength="10" placeholder="123456-7890" type="text" required>
+						<label class="label" for="kennitala">Kennitala:</label>
+						<input name="kennitala" maxlength="10" placeholder="123456-7890" type="text" class="input" required>
 
-						<label>Kyn:</label>
-						<label>
-							<input type="radio" name="gender" value="female"> Kona
+						<label class="label">Kyn:</label>
+						<label class="label">
+							<input type="radio" name="gender" value="female" class="input"> Kona
 						</label>
-						<label>
-							<input type="radio" name="gender" value="male"> Karl
+						<label class="label">
+							<input type="radio" name="gender" value="male" class="input"> Karl
 						</label>
-						<label>
-							<input type="radio" name="gender" value="other"> Annað
+						<label class="label">
+							<input type="radio" name="gender" value="other" class="input"> Annað
 						</label>
 
-						<label for="sími">Sími:</label>
-						<input type="tel" name="sími" placeholder="+354 812 3456" required>
+						<label class="label" for="sími">Sími:</label>
+						<input type="tel" name="sími" placeholder="+354 812 3456" class="input" required>
 
-						<label for="heimilisfang">Heimilisfang:</label>
-						<input type="text" name="heimilisfang" required>
+						<label class="label" for="heimilisfang">Heimilisfang:</label>
+						<input type="text" name="heimilisfang" class="input" required>
 
-						<label>
-							<input type="checkbox" checked> Skrá mig á póstlista
+						<label class="label">
+							<input type="checkbox" class="input" checked> Skrá mig á póstlista
 						</label>
 
 					</div>
@@ -56,23 +56,23 @@
 					<div class="input--col col col-4 col-xsm-12 offset-2 offset-xsm-0">
 						<h2> Greiðsluuplýsingar </h2>
 
-						<label>Greiða með:</label>
-						<select name="Greiðsluaðferð">
+						<label class="label">Greiða með:</label>
+						<select name="Greiðsluaðferð" class="select">
 							<option value="creditcard">Kreditkort</option>
 							<option value="millifæra">Millifærslu</option>
 							<option value="cash">Reiðufé</option>
 						</select>
 
-						<label>Nafn á korti:</label>
-						<input type="text" name="Nameofcard" required>
+						<label class="label">Nafn á korti:</label>
+						<input type="text" name="Nameofcard" class="input" required>
 
-						<label>Kortanúmer:</label>
-						<input type="text" name="cardnumber" placeholder="5999-9999-9999-9999" required>
+						<label class="label">Kortanúmer:</label>
+						<input type="text" name="cardnumber" placeholder="5999-9999-9999-9999" class="input" required>
 
-						<label>Gildistími:</label>
+						<label class="label">Gildistími:</label>
 						<div class="gildistimi">
 							<p>Mán</p>
-							<select name="gildistimi" class="gildistimi--man">
+							<select name="gildistimi" class="select gildistimi--man">
 								<option value="1">01</option>
 								<option value="2">02</option>
 								<option value="3">03</option>
@@ -87,7 +87,7 @@
 								<option value="12">12</option>
 							</select>
 							<p>Ár</p>
-							<select name="year" class="gildistimi--ar">
+							<select name="year" class="select gildistimi--ar">
 								<option value="2017">2017</option>
 								<option value="2018">2018</option>
 								<option value="2019">2019</option>

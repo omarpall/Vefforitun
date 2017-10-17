@@ -1,4 +1,4 @@
-nav {
+.navbar {
   position: fixed;
   z-index: 1000;
   width: 100%;
@@ -6,32 +6,35 @@ nav {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-nav > a {
-  position: absolute;
-  color: #fff;
-  text-decoration: none;
-}
-
 .index-link {
+  position: absolute;
   top: 0.15em;
   left: 0.75em;
   font-family: "Roboto Slab";
   font-size: 1.5em;
   font-weight: bold;
+  color: #fff;
+  text-decoration: none;
 }
 
 .about-link {
+  position: absolute;
   top: 0.5em;
   right: 7em;
   font-size: 1.125em;
+  color: #fff;
+  text-decoration: none;
 }
 
 .buy-link {
+  position: absolute;
   top: 0.25em;
   right: 2em;
   width: 4em;
   padding: 0.25em 1em 0.25em 0.5em;
   font-size: 1.125em;
+  color: #fff;
+  text-decoration: none;
   background-color: rgba(102, 102, 102, 1);
   border-radius: 0.25em;
 }

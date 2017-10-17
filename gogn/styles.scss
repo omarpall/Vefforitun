@@ -44,6 +44,9 @@ main { /* stylelint-disable-line */
   // þar sem við erum að eiga við neikvæð margin á grid, setjum overflow-x
   // hér sem hidden, þá fáum við ekki lárétta skrunstiku
   overflow-x: hidden;
+
+  font-family: "Open Sans";
+
 }
 
 @import "scss/header.scss";

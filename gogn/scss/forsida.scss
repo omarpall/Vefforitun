@@ -4,29 +4,29 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-}
 
-.notandi--askrift > p:first-child {
-  font-size: 1em;
-  font-weight: bold;
-  color: #000;
-}
+  &__quote {
+    margin: 1em 0;
+    font-size: 1.1em;
+    font-style: italic;
+    font-weight: bold;
+  }
 
-.notandi--askrift > p {
-  font-size: (14 / 16 ) * 1em;
-  color: #555;
-}
+  &__nafn {
+    font-size: 1em;
+    font-weight: bold;
+    color: #000;
+  }
 
-.notandi > blockquote {
-  margin: 1em 0;
-  font-size: 1.1em;
-  font-style: italic;
-  font-weight: bold;
-}
+  &__askrift {
+    font-size: (14 / 16 ) * 1em;
+    color: #555;
+  }
 
-.notandi > img {
-  width: 90%;
-  border-radius: 100%;
+  &__mynd {
+    width: 90%;
+    border-radius: 100%;
+  }
 }
 
 .why-wait {
@@ -35,18 +35,18 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
 
-.why-wait > p {
-  margin-bottom: 1em;
-  font-size: (12/16)*1em;
-  font-weight: bold;
-}
+  &__p {
+    margin-bottom: 1em;
+    font-size: (12/16)*1em;
+    font-weight: bold;
+  }
 
-.why-wait > a {
-  padding: 0.3em 2em;
-  font-size: (18/16)*1em;
-  border-radius: 3px;
+  &__a {
+    padding: 0.3em 2em;
+    font-size: (18/16)*1em;
+    border-radius: 3px;
+  }
 }
 
 .main-section {
