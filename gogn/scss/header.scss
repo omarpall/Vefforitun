@@ -1,43 +1,58 @@
-header {
+.header {
   box-shadow: inset 0 0 0 9999999px rgba(255, 255, 255, 0.2);
-}
-
-.forsida {
   display: flex;
   flex-direction: column;
-  background-image: url("bg.jpg");
-  height: 100vh;
-  background-attachment: fixed;
-  background-position: 50% 50%;
-  background-size: cover;
+  width: 100%;
   justify-content: center;
-  align-items: center;
-}
 
-.forsida > h1 {
-  font-size: 3em;
-  margin: 0.5em;
-  opacity: 0;
-  animation: fadeInOnLoad 2s 1 forwards;
-  animation-delay: 2s;
-  font-weight: 900;
-}
+  &__image {
+    padding-left: 0.5em;
+    color: #fff;
+    height: 50vh;
+    background: url("bg-subpage.jpg");
+    background-position: 50% 50%;
+    background-size: cover;
+    text-align: left;
+    font-size: 2em;
+    margin-bottom: 2em;
+    word-wrap: break-word;
+  }
+  &__forsida {
+    background-image: url("bg.jpg");
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-size: cover;
+    align-items: center;
 
-.forsida > p {
-  opacity: 0;
-  animation: fadeInOnLoad 2s 1 forwards;
-  animation-delay: 1s;
-  font-size: 1.4em;
-}
+    &--p {
+      opacity: 0;
+      animation: fadeInOnLoad 2s 1 forwards;
+      animation-delay: 1s;
+      font-size: 1.4em;
+    }
 
-.forsida > a {
-  color: #FFFFFF;
-  text-decoration: none;
-  font-size: 2em;
-  font-weight: lighter;
-  opacity: 0;
-  animation: fadeInOnLoad 2s 1 forwards;
-  animation-delay: 3s;
+    &--h1 {
+      font-size: 3em;
+      margin: 0.5em;
+      opacity: 0;
+      animation: fadeInOnLoad 2s 1 forwards;
+      animation-delay: 2s;
+      font-weight: 900;
+    }
+
+    &--a {
+      color: #FFFFFF;
+      text-decoration: none;
+      font-size: 2em;
+      font-weight: lighter;
+      opacity: 0;
+      animation: fadeInOnLoad 2s 1 forwards;
+      animation-delay: 3s;
+
+    }
+
+  }
 }
 
 @keyframes fadeInOnLoad {
@@ -48,24 +63,4 @@ header {
   to {
     opacity: 1;
   }
-}
-
-.header-image {
-  padding-left: 0.5em;
-  color: #fff;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: 50vh;
-  background: url("bg-subpage.jpg");
-  background-position: 50% 50%;
-  background-size: cover;
-  text-align: left;
-  justify-content: center;
-  font-size: 2em;
-  margin-bottom: 2em;
-}
-
-.about-h1 {
-  word-wrap: break-word;
 }
