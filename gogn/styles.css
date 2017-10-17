@@ -233,6 +233,19 @@ li::before {
   display: flex;
   flex-direction: column; }
 
+input {
+  border-radius: 0.3em;
+  padding: 0.1em;
+  border-color: #ddd; }
+
+label {
+  margin-top: 0.5em; }
+
+select {
+  border-radius: 0.3em;
+  padding: 0.1em;
+  border-color: #ddd; }
+
 .buy--title {
   position: absolute;
   top: 250px;
