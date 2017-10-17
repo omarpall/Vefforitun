@@ -13,7 +13,6 @@
 input {
   border-radius: 0.3em;
   padding: 0.1em;
-  border-color: #ddd;
 }
 label {
 margin-top: 0.5em;
@@ -21,7 +20,6 @@ margin-top: 0.5em;
 select {
   border-radius: 0.3em;
   padding: 0.1em;
-  border-color: #ddd;
 }
 .buy--title {
   position: absolute;
@@ -32,12 +30,15 @@ select {
 }
 .gildistimi {
   display: inline-flex;
+  align-items: center;
   justify-content: space-between;
   &--man {
-    width: 5em;
-  }
+    width: 7em;
+    height: 1.9em;
+   }
   &--ar {
-    width: 5em;
+    width: 7em;
+    height: 1.9em;
   }
 }
 

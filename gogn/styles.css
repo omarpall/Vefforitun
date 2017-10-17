@@ -82,7 +82,8 @@ header {
   width: 100%;
   background: url(bg-subpage.jpg);
   background-size: cover;
-  min-height: 18em;
+  background-position: 50% 50%;
+  height: 50vh;
   text-align: left;
   display: flex;
   flex-direction: column;
@@ -231,16 +232,14 @@ li::before {
 
 input {
   border-radius: 0.3em;
-  padding: 0.1em;
-  border-color: #ddd; }
+  padding: 0.1em; }
 
 label {
   margin-top: 0.5em; }
 
 select {
   border-radius: 0.3em;
-  padding: 0.1em;
-  border-color: #ddd; }
+  padding: 0.1em; }
 
 .buy--title {
   position: absolute;
@@ -251,11 +250,14 @@ select {
 
 .gildistimi {
   display: inline-flex;
+  align-items: center;
   justify-content: space-between; }
   .gildistimi--man {
-    width: 5em; }
+    width: 7em;
+    height: 1.9em; }
   .gildistimi--ar {
-    width: 5em; }
+    width: 7em;
+    height: 1.9em; }
 
 .panta-button {
   display: inline-block;
@@ -358,14 +360,14 @@ select {
     width: 33.33333%; }
   .col-3 {
     width: 25%; }
-  @media (max-width: 599px) {
+  @media (max-width: 799px) {
     .col-sm-12 {
       width: 100%; }
     .col-sm-6 {
       width: 50%; }
     .col-sm-3 {
       width: 25%; } }
-  @media (max-width: 399px) {
+  @media (max-width: 499px) {
     .col-xsm-12 {
       width: 100%; }
     .col-xsm-6 {
@@ -379,10 +381,16 @@ select {
 .offset-2 {
   margin-left: 16.66667%; }
 
-@media (max-width: 599px) {
+@media (max-width: 799px) {
   .offset-sm-0 {
     margin-left: 0%; }
   .offset-sm-3 {
+    margin-left: 25%; } }
+
+@media (max-width: 499px) {
+  .offset-xsm-0 {
+    margin-left: 0%; }
+  .offset-xsm-3 {
     margin-left: 25%; } }
 
 .footer {
