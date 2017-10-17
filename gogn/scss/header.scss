@@ -38,6 +38,7 @@ header {
   font-size: 2em;
 
 }
+
 @keyframes fadeInOnLoad {
   from {
     opacity: 0;
@@ -51,7 +52,8 @@ header {
   width: 100%;
   background: url(bg-subpage.jpg);
   background-size: cover;
-  min-height: 18em;
+  background-position: 50% 50%;
+  height: 50vh;
   text-align: left;
   display: flex;
   flex-direction: column;
