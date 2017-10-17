@@ -13,9 +13,10 @@ label {
 }
 
 select {
-  border-radius: 0.3em;
   padding: 0.1em;
+  border-radius: 0.3em;
 }
+
 .buy--title {
   position: absolute;
   top: 250px;
@@ -23,14 +24,17 @@ select {
   width: 100%;
   padding: 16px;
 }
+
 .gildistimi {
   display: inline-flex;
   align-items: center;
   justify-content: space-between;
+
   &--man {
     width: 7em;
     height: 1.9em;
-   }
+  }
+
   &--ar {
     width: 7em;
     height: 1.9em;
@@ -38,31 +42,30 @@ select {
 }
 
 .panta-button {
-
   display: inline-block;
-  padding: 10px 5px;
-  border: 1px solid #666;
-  border-radius: 4px;
   width: 100%;
   max-width: 256px;
+  padding: 10px 5px;
   overflow: hidden;
+  font-size: 1rem;
+  color: #eee;
+  text-align: center;
   text-overflow: ellipsis;
   white-space: nowrap;
-  color: #eee;
   background-color: #666;
-  font-size: 1rem;
-  text-decoration: none;
-  text-align: center;
+  border: 1px solid #666;
+  border-radius: 4px;
 }
+
 .panta-button:hover {
   color: #eee;
   background-color: #333;
 }
 
 .panta-section {
-  height: auto;
-  width: 100%;
   display: flex;
+  width: 100%;
+  height: auto;
   flex-wrap: wrap;
   align-content: center;
   justify-content: center;
