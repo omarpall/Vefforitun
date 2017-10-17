@@ -80,7 +80,8 @@
   &-sm {
     @media (max-width: 799px) {
       &-0 {
-        margin-left: (0 / 12 * 100) * 1%;
+        margin-left: $gutter/2;
+        margin-right: $gutter/2;
       }
       &-3 {
         margin-left: (3 / 12 * 100) * 1%;
@@ -90,7 +91,8 @@
   &-xsm {
     @media (max-width: 499px) {
       &-0 {
-        margin-left: (0 / 12 * 100) * 1%;
+        margin-left: $gutter/2;
+        margin-right: $gutter/2;
       }
       &-3 {
         margin-left: (3 / 12 * 100) * 1%;
