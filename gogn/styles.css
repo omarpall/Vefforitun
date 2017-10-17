@@ -38,7 +38,6 @@ header {
   box-shadow: inset 0 0 0 9999999px rgba(255, 255, 255, 0.2); }
 
 .forsida {
-  font-family: "Merriweather";
   background-image: url("bg.jpg");
   background-size: cover;
   background-attachment: fixed;
@@ -50,23 +49,28 @@ header {
   align-items: center; }
 
 .forsida > h1 {
+  font-family: "Merriweather";
   opacity: 0;
   animation: fadeInOnLoad 2s 1 forwards;
   animation-delay: 2s;
   font-size: 3em;
-  font-weight: bold;
+  font-weight: 900;
   margin: 0.5em; }
 
 .forsida > p {
+  font-family: "Merriweather";
   opacity: 0;
   animation: fadeInOnLoad 2s 1 forwards;
   animation-delay: 1s;
   font-size: 1.4em; }
 
 .forsida > a {
+  font-family: "Lato";
+  font-weight: lighter;
   opacity: 0;
   animation: fadeInOnLoad 2s 1 forwards;
-  animation-delay: 3s; }
+  animation-delay: 3s;
+  font-size: 2em; }
 
 @keyframes fadeInOnLoad {
   from {
@@ -225,6 +229,19 @@ li::before {
   display: flex;
   flex-direction: column; }
 
+input {
+  border-radius: 0.3em;
+  padding: 0.1em;
+  border-color: #ddd; }
+
+label {
+  margin-top: 0.5em; }
+
+select {
+  border-radius: 0.3em;
+  padding: 0.1em;
+  border-color: #ddd; }
+
 .buy--title {
   position: absolute;
   top: 250px;
@@ -277,9 +294,20 @@ li::before {
   justify-content: space-between;
   text-align: center; }
 
+.notandi--askrift > p:first-child {
+  font-weight: bold;
+  font-size: 1em;
+  color: #000; }
+
+.notandi--askrift > p {
+  font-size: 0.875em;
+  color: #555; }
+
 .notandi > blockquote {
   font-weight: bold;
-  font-style: italic; }
+  font-style: italic;
+  font-size: 1.1em;
+  margin: 1em 0 1em 0; }
 
 .notandi > img {
   border-radius: 100%;
@@ -292,9 +320,19 @@ li::before {
   align-items: center;
   font-size: 1.5em; }
 
+.why-wait > p {
+  font-weight: bold;
+  font-size: 0.75em;
+  margin-bottom: 1em; }
+
+.why-wait > a {
+  font-size: 1.125em;
+  padding: 0.3em 2em;
+  border-radius: 3px; }
+
 .main-section {
-  margin-bottom: 4em;
-  margin-top: 4em; }
+  margin-bottom: 5em;
+  margin-top: 5em; }
 
 .forsida > a {
   color: white;
@@ -348,13 +386,13 @@ li::before {
     margin-left: 25%; } }
 
 .footer {
-  background-color: #555;
+  background-color: #353535;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   color: #eee;
   display: flex;
-  padding: 2em 3em 1em 3em; }
+  padding: 1em 3em 0.5em 3em; }
   .footer--left {
     width: 50%;
     text-align: center; }
@@ -363,5 +401,10 @@ li::before {
     width: 50%; }
   .footer--bottom {
     text-align: center;
+    font-size: 0.875em;
+    color: #888;
     width: 100%;
-    border-top: 1px solid #aaa; }
+    border-top: 1px solid #aaa;
+    margin-top: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em; }
