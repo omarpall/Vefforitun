@@ -232,16 +232,14 @@ li::before {
 
 input {
   border-radius: 0.3em;
-  padding: 0.1em;
-  border-color: #ddd; }
+  padding: 0.1em; }
 
 label {
   margin-top: 0.5em; }
 
 select {
   border-radius: 0.3em;
-  padding: 0.1em;
-  border-color: #ddd; }
+  padding: 0.1em; }
 
 .buy--title {
   position: absolute;
@@ -252,11 +250,14 @@ select {
 
 .gildistimi {
   display: inline-flex;
+  align-items: center;
   justify-content: space-between; }
   .gildistimi--man {
-    width: 5em; }
+    width: 7em;
+    height: 1.9em; }
   .gildistimi--ar {
-    width: 5em; }
+    width: 7em;
+    height: 1.9em; }
 
 .panta-button {
   display: inline-block;
@@ -334,10 +335,6 @@ select {
 .main-section {
   margin-bottom: 5em;
   margin-top: 5em; }
-
-.forsida > a {
-  color: white;
-  text-decoration: none; }
 
 .row {
   display: flex;
