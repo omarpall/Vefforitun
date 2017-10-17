@@ -1,1 +1,3 @@
-# Vefforitun
+# Vefforritun
+
+## Gaman að forrita
