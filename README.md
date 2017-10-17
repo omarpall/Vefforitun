@@ -21,12 +21,15 @@ Við notumst við SASS tæknina í þessu verkefni. Í `/scss` möppu er að fin
 
 ### Birkir Freyr Guðbjartsson
 HÍ email: 
+
 GitHub Username:
 
 ### Ómar Páll Axelsson
 HÍ email: 
+
 GitHub Username:
 
 ### Stefán Páll Sturluson
 HÍ email: sps8@hi.is
+
 GitHub Username: TheGuitarMonkey
