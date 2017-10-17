@@ -1,29 +1,27 @@
 .about-article {
- padding-left: 1em;
+  padding-left: 1em;
 }
 
 .block {
-  margin-top: 2em;
-  margin-bottom: 2em;
-  margin-right: 2em;
+  margin: 2em 2em 2em 0;
 }
 
 .about-blockquote {
-  float: right;
   position: relative;
+  float: right;
   width: 60%;
-  padding: 2em 3em 6em 3em; }
-  @media (max-width: 499px) {
-    .about-blockquote{
-      width: 100%;
-    }
+  padding: 2em 3em 6em;
+}
+@media (max-width: 499px) {
+  .about-blockquote {
+    width: 100%;
   }
-
+}
 
 .quote {
-  font-style: italic;
-  font-size: 1.3125em;
   padding-bottom: 1em;
+  font-size: 1.3125em;
+  font-style: italic;
 }
 
 .author {
