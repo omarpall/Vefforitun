@@ -174,7 +174,6 @@ h1, h2 {
   position: absolute;
   top: 0.25em;
   right: 2em;
-  width: 4em;
   padding: 0.25em 1em 0.25em 0.5em;
   font-size: 1.125em;
   color: #fff;
@@ -306,16 +305,14 @@ h1, h2 {
   flex-direction: column;
   justify-content: center;
   align-items: center; }
-
-.why-wait > p {
-  margin-bottom: 1em;
-  font-size: 0.75em;
-  font-weight: bold; }
-
-.why-wait > a {
-  padding: 0.3em 2em;
-  font-size: 1.125em;
-  border-radius: 3px; }
+  .why-wait__p {
+    margin-bottom: 1em;
+    font-size: 0.75em;
+    font-weight: bold; }
+  .why-wait__a {
+    padding: 0.3em 2em;
+    font-size: 1.125em;
+    border-radius: 3px; }
 
 .main-section {
   margin-top: 5em;
