@@ -1,8 +1,8 @@
 header {
   box-shadow: inset 0 0 0 9999999px rgba(255, 255, 255, 0.2);
 }
-.forsida {
 
+.forsida {
   background-image: url("bg.jpg");
   background-size:cover;
   background-attachment: fixed;
@@ -13,6 +13,7 @@ header {
   justify-content: center;
   align-items: center;
 }
+
 .forsida > h1 {
   font-family: "Merriweather";
   opacity: 0;
@@ -22,6 +23,7 @@ header {
   font-weight: 900;
   margin: 0.5em;
 }
+
 .forsida > p {
   font-family: "Merriweather";
   opacity: 0;
@@ -29,6 +31,7 @@ header {
   animation-delay: 1s;
   font-size: 1.4em;
 }
+
 .forsida > a {
   font-family: "Lato";
   font-weight: lighter;
@@ -36,7 +39,6 @@ header {
   animation: fadeInOnLoad 2s 1 forwards;
   animation-delay: 3s;
   font-size: 2em;
-
 }
 
 @keyframes fadeInOnLoad {
