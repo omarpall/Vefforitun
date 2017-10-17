@@ -20,9 +20,9 @@ Við notumst við SASS tæknina í þessu verkefni. Í `/scss` möppu er að fin
 Þeir sem unnu verkefnið eru:
 
 ### Birkir Freyr Guðbjartsson
-HÍ email: 
+HÍ email: bfg6@hi.is
 
-GitHub Username:
+GitHub Username: birkirfreyrg
 
 ### Ómar Páll Axelsson
 HÍ email: 
