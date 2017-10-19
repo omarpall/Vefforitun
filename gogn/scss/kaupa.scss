@@ -2,12 +2,15 @@
   display: flex;
   flex-direction: column;
   border: 0;
+  word-wrap: break-word;
+  min-width: 0;
 }
 
 .legend {
   font-family: "Roboto Slab";
   font-size: 1.5em;
   font-weight: bold;
+  word-wrap: break-word;
 }
 
 .input--col {

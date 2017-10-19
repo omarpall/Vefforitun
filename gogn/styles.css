@@ -216,23 +216,26 @@ h1, h2 {
   justify-content: center; }
 
 .fieldset {
-  border: none;
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  border: 0;
+  word-wrap: break-word;
+  min-width: 0; }
 
 .legend {
   font-family: "Roboto Slab";
+  font-size: 1.5em;
   font-weight: bold;
-  font-size: 1.5em; }
+  word-wrap: break-word; }
 
 .input--col {
   display: flex;
   flex-direction: column; }
 
 .input {
+  width: 100%;
   padding: 0.4em;
-  border-radius: 0.3em;
-  width: 100%; }
+  border-radius: 0.3em; }
 
 .label {
   margin-top: 0.5em; }
@@ -240,9 +243,9 @@ h1, h2 {
     width: auto; }
 
 .select {
+  width: 100%;
   padding: 0.1em;
-  border-radius: 0.3em;
-  width: 100%; }
+  border-radius: 0.3em; }
 
 .buy--title {
   position: absolute;
@@ -340,8 +343,8 @@ h1, h2 {
   margin-left: -10px; }
 
 .col {
-  padding-right: 10px;
-  padding-left: 10px; }
+  padding-right: 20px;
+  padding-left: 20px; }
   .col-12 {
     width: 100%; }
   .col-8 {
@@ -352,7 +355,7 @@ h1, h2 {
     width: 33.33333%; }
   .col-3 {
     width: 25%; }
-  @media (max-width: 859px) {
+  @media (max-width: 799px) {
     .col-sm-12 {
       width: 100%; }
     .col-sm-6 {
@@ -375,10 +378,9 @@ h1, h2 {
 .offset-2 {
   margin-left: 16.66667%; }
 
-@media (max-width: 859px) {
+@media (max-width: 799px) {
   .offset-sm-0 {
-    margin-right: 10px;
-    margin-left: 10px; }
+    margin-left: 0; }
   .offset-sm-1 {
     margin-left: 8.33333%; }
   .offset-sm-2 {
@@ -388,8 +390,7 @@ h1, h2 {
 
 @media (max-width: 499px) {
   .offset-xsm-0 {
-    margin-right: 10px;
-    margin-left: 10px; }
+    margin-left: 0; }
   .offset-xsm-3 {
     margin-left: 25%; } }
 
