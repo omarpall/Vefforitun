@@ -37,13 +37,17 @@
   }
 
   &-sm {
-    @media (max-width: 799px) {
+    @media (max-width: 859px) {
       &-12 {
         @include columns(12);
       }
 
       &-6 {
         @include columns(6);
+      }
+
+      &-4 {
+        @include columns(4);
       }
 
       &-3 {
@@ -71,18 +75,26 @@
 
 .offset {
   &-1 {
-    margin-left: (1 / 12 * 100) * 1%; // reiknað einsog að ofan
+    margin-left: (1 / 12 * 100) * 1%;
   }
 
   &-2 {
-    margin-left: (2 / 12 * 100) * 1%; // reiknað einsog að ofan
+    margin-left: (2 / 12 * 100) * 1%;
   }
 
   &-sm {
-    @media (max-width: 799px) {
+    @media (max-width: 859px) {
       &-0 {
         margin-right: $gutter/2;
         margin-left: $gutter/2;
+      }
+
+      &-1 {
+        margin-left: (1 / 12 * 100) * 1%;
+      }
+
+      &-2 {
+        margin-left: (2 / 12 * 100) * 1%;
       }
 
       &-3 {

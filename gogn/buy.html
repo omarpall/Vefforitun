@@ -20,90 +20,94 @@
 
 		<main>
 			<section>
-				<div class="row">
-					<div class="input--col col col-4 col-xsm-12 offset-1 offset-xsm-0">
-						<h2>Persónuupplýsingar</h2>
+				<form>
+					<div class="row">
+						<div class="input--col col col-4 col-sm-5 col-xsm-12 offset-1 offset-xsm-0">
+							<fieldset class="fieldset">
+								<legend class="legend">Persónuupplýsingar</legend>
 
-						<label class="label" for="name">Nafn:</label>
-						<input type="text" name="name" id="name" class="input" required>
+								<label class="label" for="name">Nafn:</label>
+								<input type="text" name="name" id="name" class="input" required>
 
-						<label class="label" for="kennitala">Kennitala:</label>
-						<input name="kennitala" maxlength="10" placeholder="123456-7890" type="text" class="input" required>
+								<label class="label" for="kennitala">Kennitala:</label>
+								<input name="kennitala" maxlength="10" placeholder="123456-7890" type="text" class="input" required>
 
-						<label class="label">Kyn:</label>
-						<label class="label">
-							<input type="radio" name="gender" value="female" class="input"> Kona
-						</label>
-						<label class="label">
-							<input type="radio" name="gender" value="male" class="input"> Karl
-						</label>
-						<label class="label">
-							<input type="radio" name="gender" value="other" class="input"> Annað
-						</label>
+								<label class="label">Kyn:</label>
+								<label class="label">
+									<input type="radio" name="gender" value="female" class="input--radio"> Kona
+								</label>
+								<label class="label">
+									<input type="radio" name="gender" value="male" class="input--radio"> Karl
+								</label>
+								<label class="label">
+									<input type="radio" name="gender" value="other" class="input--radio"> Annað
+								</label>
 
-						<label class="label" for="sími">Sími:</label>
-						<input type="tel" name="sími" placeholder="+354 812 3456" class="input" required>
+								<label class="label" for="sími">Sími:</label>
+								<input type="tel" name="sími" placeholder="+354 812 3456" class="input" required>
 
-						<label class="label" for="heimilisfang">Heimilisfang:</label>
-						<input type="text" name="heimilisfang" class="input" required>
+								<label class="label" for="heimilisfang">Heimilisfang:</label>
+								<input type="text" name="heimilisfang" class="input" required>
 
-						<label class="label">
-							<input type="checkbox" class="input" checked> Skrá mig á póstlista
-						</label>
+								<label class="label">
+									<input type="checkbox" checked> Skrá mig á póstlista
+								</label>
 
-					</div>
-
-					<div class="input--col col col-4 col-xsm-12 offset-2 offset-xsm-0">
-						<h2> Greiðsluuplýsingar </h2>
-
-						<label class="label">Greiða með:</label>
-						<select name="Greiðsluaðferð" class="select">
-							<option value="creditcard">Kreditkort</option>
-							<option value="millifæra">Millifærslu</option>
-							<option value="cash">Reiðufé</option>
-						</select>
-
-						<label class="label">Nafn á korti:</label>
-						<input type="text" name="Nameofcard" class="input" required>
-
-						<label class="label">Kortanúmer:</label>
-						<input type="text" name="cardnumber" placeholder="5999-9999-9999-9999" class="input" required>
-
-						<label class="label">Gildistími:</label>
-						<div class="gildistimi">
-							<p>Mán</p>
-							<select name="gildistimi" class="select gildistimi--man">
-								<option value="1">01</option>
-								<option value="2">02</option>
-								<option value="3">03</option>
-								<option value="4">04</option>
-								<option value="5">05</option>
-								<option value="6">06</option>
-								<option value="7">07</option>
-								<option value="8">08</option>
-								<option value="9">09</option>
-								<option value="10">10</option>
-								<option value="11">11</option>
-								<option value="12">12</option>
-							</select>
-							<p>Ár</p>
-							<select name="year" class="select gildistimi--ar">
-								<option value="2017">2017</option>
-								<option value="2018">2018</option>
-								<option value="2019">2019</option>
-								<option value="2020">2020</option>
-							</select>
-
+							</fieldset>
 						</div>
 
+						<div class="input--col col col-4 col-sm-4 col-xsm-12 offset-2 offset-xsm-0">
+	            <fieldset class="fieldset">
+								<legend class="legend"> Greiðsluuplýsingar </legend>
+
+								<label class="label">Greiða með:</label>
+								<select name="Greiðsluaðferð" class="select">
+									<option value="creditcard">Kreditkort</option>
+									<option value="millifæra">Millifærslu</option>
+									<option value="cash">Reiðufé</option>
+								</select>
+
+								<label class="label">Nafn á korti:</label>
+								<input type="text" name="Nameofcard" class="input" required>
+
+								<label class="label">Kortanúmer:</label>
+								<input type="text" name="cardnumber" placeholder="5999-9999-9999-9999" class="input" required>
+
+								<label class="label">Gildistími:</label>
+								<div class="gildistimi">
+									<p>Mán</p>
+									<select name="gildistimi" class="select gildistimi--man">
+										<option value="1">01</option>
+										<option value="2">02</option>
+										<option value="3">03</option>
+										<option value="4">04</option>
+										<option value="5">05</option>
+										<option value="6">06</option>
+										<option value="7">07</option>
+										<option value="8">08</option>
+										<option value="9">09</option>
+										<option value="10">10</option>
+										<option value="11">11</option>
+										<option value="12">12</option>
+									</select>
+									<p>Ár</p>
+									<select name="year" class="select gildistimi--ar">
+										<option value="2017">2017</option>
+										<option value="2018">2018</option>
+										<option value="2019">2019</option>
+										<option value="2020">2020</option>
+									</select>
+								</div>
+							</fieldset>
+						</div>
 					</div>
-				</div>
-			</section>
 
+					<div class="panta-section">
+						<button class="panta-button" type="submit">Panta</button>
+					</div>
+				</form>
+		</section>
 
-			<section class="panta-section">
-				<button class="panta-button">Panta</button>
-		  </section>
 		</main>
 
 		<footer class="footer">

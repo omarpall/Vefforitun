@@ -1,18 +1,36 @@
+.fieldset {
+  display: flex;
+  flex-direction: column;
+  border: 0;
+}
+
+.legend {
+  font-family: "Roboto Slab";
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
 .input--col {
   display: flex;
   flex-direction: column;
 }
 
 .input {
-  padding: 0.1em;
+  width: 100%;
+  padding: 0.4em;
   border-radius: 0.3em;
 }
 
 .label {
   margin-top: 0.5em;
+
+  &--input {
+    width: auto;
+  }
 }
 
 .select {
+  width: 100%;
   padding: 0.1em;
   border-radius: 0.3em;
 }
@@ -44,7 +62,7 @@
 .panta-button {
   display: inline-block;
   width: 100%;
-  max-width: 256px;
+  max-width: 16em;
   padding: 10px 5px;
   overflow: hidden;
   font-size: 1rem;
