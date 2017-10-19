@@ -25,9 +25,9 @@ HÍ email: bfg6@hi.is
 GitHub Username: birkirfreyrg
 
 ### Ómar Páll Axelsson
-HÍ email: 
+HÍ email: opa2@hi.is
 
-GitHub Username:
+GitHub Username: omarpall
 
 ### Stefán Páll Sturluson
 HÍ email: sps8@hi.is
