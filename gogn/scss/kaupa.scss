@@ -1,9 +1,9 @@
 .fieldset {
   display: flex;
+  min-width: 0;
+  word-wrap: break-word;
   flex-direction: column;
   border: 0;
-  word-wrap: break-word;
-  min-width: 0;
 }
 
 .legend {
